@@ -1,0 +1,8 @@
+tabuada = int(input("Informe um número para montar a tabuada "))
+quantos = int(input("A tabuada vai até quanto? "))
+for c in range(quantos + 1):
+    if c < 10:
+        print('{} x {} = {}'.format(tabuada , c , tabuada * c))
+print("---------------")
+print("Christian Gomes")
+print("(11) 98015-0323")
